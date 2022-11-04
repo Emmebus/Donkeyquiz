@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply w-64 mx-auto mt-10 py-4 text-center rounded-full border-2 bg-white hover:bg-purple border-purple text-purple hover:text-white text-16 font-semibold hover:cursor-pointer;
+    }
+
+    .li {
+        @apply w-8 sm:w-10 h-6 sm:h-8 mx-2 sm:mx-6 mt-1 rounded-full bg-grey 
+    }
+}
